@@ -4,19 +4,32 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>[FICTION] 城南記念総合病院</title>
-<meta property="og:title" content="[FICTION] 城南記念総合病院 | 創作ARG作品">
+    <meta
+      name="description"
+      content="このページは創作ARG作品に登場する架空の医療機関サイトです。"
+    />
+    <meta
+      property="og:title"
+      content="[FICTION] 城南記念総合病院 | 創作ARG作品"
+    />
+    <meta
+      property="og:description"
+      content="このページは創作ARG作品に登場する架空の医療機関サイトです。実在の病院・医師・所在地・診療案内ではありません。"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
-    <div style="position:fixed;top:0;left:0;width:100%;background:#c00;color:#fff;text-align:center;padding:7px 10px;font-weight:bold;z-index:9999;font-size:13px;">
-  ⚠️ このページは創作ARG作品の架空医療機関サイトです。実在の病院・診療案内ではありません。
-</div>
+    <div class="fiction-top-banner">
+      ⚠️ このページは創作ARG作品の架空医療機関サイトです。実在の病院・診療案内ではありません。
+    </div>
+
     <div class="page">
       <header class="site-header">
         <div class="container header-top">
           <div class="brand">
             <div class="brand-mark">
-              <img src="symbol.png" alt="病院ロゴ" class="brand-logo" />
+              <img src="symbol.png" alt="架空病院ロゴ" class="brand-logo" />
             </div>
             <div>
               <p class="brand-sub">JONAN MEMORIAL HOSPITAL</p>
@@ -32,9 +45,298 @@
         </div>
 
         <div class="container header-bottom">
-          <nav class="main-nav">
+          <nav class="main-nav" aria-label="グローバルナビゲーション">
             <a href="#about">病院紹介</a>
             <a href="#message">院長挨拶</a>
+            <a href="#departments">診療科</a>
+            <a href="#news">お知らせ</a>
+            <a href="#hours">外来案内</a>
+            <a href="#access">交通案内</a>
+          </nav>
+
+          <form class="search-box">
+            <input
+              type="text"
+              placeholder="サイト内検索"
+              aria-label="サイト内検索"
+            />
+            <button type="submit">検索</button>
+          </form>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero">
+          <div class="container hero-grid">
+            <div class="hero-copy">
+              <p class="hero-kicker">地域とともに歩む総合医療</p>
+              <h2 class="hero-title">
+                安心と信頼の医療を、<br />
+                毎日のすぐそばに。
+              </h2>
+
+              <p class="hero-text">
+                城南記念総合病院は、地域の皆さまに寄り添う総合病院として、
+                救急医療から専門外来まで幅広く対応しています。
+                患者さま一人ひとりに誠実で丁寧な医療を提供します。
+              </p>
+
+              <div class="hero-buttons">
+                <a href="#hours" class="button primary">外来受付時間を見る</a>
+                <a href="#departments" class="button secondary">診療科一覧</a>
+              </div>
+            </div>
+
+            <div class="hero-card">
+              <img src="hospital.png" alt="架空病院外観" class="hero-image" />
+
+              <div class="fiction-notice fiction-notice--compact">
+                ※ このサイトは創作作品用の架空医療機関ページです。実在の病院・医師・診療案内ではありません。
+              </div>
+
+              <div class="hero-card-inner">
+                <p class="hero-card-label">本日の外来案内</p>
+
+                <div class="hero-card-row">
+                  <span>午前</span>
+                  <strong>8:30 - 11:30</strong>
+                </div>
+
+                <div class="hero-card-row">
+                  <span>午後</span>
+                  <strong>13:30 - 16:30</strong>
+                </div>
+
+                <div class="hero-note">
+                  ※ 物語内の設定です。実在の診療受付時間ではありません。
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="fiction-notice-section">
+          <div class="container">
+            <div class="fiction-notice fiction-notice--primary">
+              <strong>創作作品内の架空サイトです。</strong><br />
+              このページは創作作品の演出用に作成した架空の医療機関サイトです。<br />
+              実在の病院・診療科・医師・所在地・電話番号・診療案内ではありません。<br />
+              医療上の案内として利用しないでください。
+            </div>
+          </div>
+        </section>
+
+        <section id="about" class="section alt">
+          <div class="container">
+            <div class="section-head">
+              <div>
+                <p class="section-label">ABOUT</p>
+                <h3 class="section-title">病院紹介</h3>
+              </div>
+            </div>
+
+            <div class="info-card">
+              <p class="info-text">
+                城南記念総合病院は、星浜市城南地区に位置する、作品内に登場する架空の総合病院です。
+                一般外来、専門外来、救急受け入れを通じて、地域の皆さまの健康を支えることを使命としています。
+                患者さまとご家族に寄り添い、安心して受診いただける医療環境づくりに努めています。
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="message" class="section">
+          <div class="container director-section">
+            <div class="director-image-wrap">
+              <img src="doctor.png" alt="架空の院長写真" class="director-image" />
+            </div>
+
+            <div class="director-content">
+              <p class="section-label">DIRECTOR MESSAGE</p>
+              <h3 class="section-title">院長挨拶</h3>
+              <p class="director-name">院長　黒崎 恒一郎</p>
+
+              <div class="director-text">
+                <p>
+                  城南記念総合病院のホームページをご覧いただき、誠にありがとうございます。
+                </p>
+                <p>
+                  当院は平成6年、外科部長の藍沢と共に
+                  「地域に根ざした医療を届けたい」という志のもと開院いたしました。
+                  以来30年以上にわたり、地域の皆様の健康を支える総合病院として、
+                  医療サービスの提供に努めてまいりました。
+                </p>
+                <p>
+                  「患者様第一」の理念のもと、質の高い医療と温かい看護を心がけております。
+                  これからも地域医療の中核として、皆様に信頼される病院であり続けるよう、
+                  職員一同努力してまいります。
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="news" class="section">
+          <div class="container">
+            <div class="section-head">
+              <div>
+                <p class="section-label">NEWS</p>
+                <h3 class="section-title">お知らせ</h3>
+              </div>
+              <a href="#" class="section-link">一覧を見る</a>
+            </div>
+
+            <div class="news-list">
+              <article class="news-item">
+                <div class="news-meta">
+                  <time datetime="2026-04-12">2026.04.12</time>
+                  <span class="news-category">重要</span>
+                  <span class="news-new">NEW</span>
+                </div>
+                <a href="#" class="news-title">
+                  過去診療記録の大規模整理作業実施のお知らせ（一部カルテの閲覧制限について）
+                </a>
+              </article>
+
+              <article class="news-item">
+                <div class="news-meta">
+                  <time datetime="2026-04-10">2026.04.10</time>
+                  <span class="news-category">お知らせ</span>
+                  <span class="news-new">NEW</span>
+                </div>
+                <a href="#" class="news-title">
+                  ゴールデンウィーク期間中の診療体制について
+                </a>
+              </article>
+
+              <article class="news-item">
+                <div class="news-meta">
+                  <time datetime="2026-04-05">2026.04.05</time>
+                  <span class="news-category">お知らせ</span>
+                </div>
+                <a href="#" class="news-title">
+                  地下1階 検査室の一時閉鎖のお知らせ（4月15日〜5月末予定）
+                </a>
+              </article>
+
+              <article class="news-item">
+                <div class="news-meta">
+                  <time datetime="2026-03-28">2026.03.28</time>
+                  <span class="news-category">採用情報</span>
+                </div>
+                <a href="#" class="news-title">
+                  2027年度初期臨床研修医募集要項を公開しました
+                </a>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section id="departments" class="section alt">
+          <div class="container">
+            <div class="section-head">
+              <div>
+                <p class="section-label">DEPARTMENTS</p>
+                <h3 class="section-title">診療科のご案内</h3>
+              </div>
+            </div>
+
+            <div class="departments-grid">
+              <div class="dept-card">
+                <h4>内科</h4>
+                <p>生活習慣病や発熱、体調不良など幅広い症状に対応します。</p>
+              </div>
+
+              <div class="dept-card">
+                <h4>外科</h4>
+                <p>外傷や消化器外科をはじめ、手術を含む診療を行っています。</p>
+              </div>
+
+              <div class="dept-card">
+                <h4>整形外科</h4>
+                <p>骨折、関節痛、運動器疾患などの診療を行います。</p>
+              </div>
+
+              <div class="dept-card">
+                <h4>小児科</h4>
+                <p>乳幼児から中学生まで、成長に応じた医療を提供します。</p>
+              </div>
+
+              <div class="dept-card">
+                <h4>皮膚科</h4>
+                <p>湿疹、かぶれ、アレルギー症状など皮膚疾患を診療します。</p>
+              </div>
+
+              <div class="dept-card">
+                <h4>脳神経外科</h4>
+                <p>頭痛、しびれ、外傷後症状など専門的な診察を行います。</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="hours" class="section">
+          <div class="container info-grid">
+            <div class="info-card">
+              <p class="section-label">OUTPATIENT</p>
+              <h3 class="section-title small">外来受付時間</h3>
+
+              <div class="fiction-notice fiction-notice--inline">
+                この外来案内は物語内の設定です。実在の医療機関の受付時間ではありません。
+              </div>
+
+              <dl class="info-list">
+                <div>
+                  <dt>平日</dt>
+                  <dd>8:30 - 11:30 / 13:30 - 16:30</dd>
+                </div>
+                <div>
+                  <dt>土曜</dt>
+                  <dd>8:30 - 11:30</dd>
+                </div>
+                <div>
+                  <dt>休診</dt>
+                  <dd>日曜・祝日</dd>
+                </div>
+              </dl>
+            </div>
+
+            <div id="access" class="info-card">
+              <p class="section-label">ACCESS</p>
+              <h3 class="section-title small">交通案内</h3>
+              <p class="info-text">
+                城南記念総合病院は、星浜市城南地区に位置する、作品内に登場する架空の総合病院です。
+                本ページに記載された診療科・受付時間・所在地・職員情報は、
+                すべて物語演出上の設定であり、実在の医療機関の案内ではありません。
+              </p>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer id="contact" class="site-footer">
+        <div class="container footer-inner">
+          <div>
+            <p class="footer-title">城南記念総合病院</p>
+            <p class="footer-text">
+              〒000-0000　静山県星浜市城南1-8-12
+            </p>
+            <p class="footer-fiction">
+              このページは創作ARG作品の演出用に作成した架空の医療機関サイトです。
+              実在の病院・診療科・医師・所在地・電話番号・診療案内ではありません。
+              医療上の案内として利用しないでください。
+            </p>
+          </div>
+
+          <div class="footer-contact">
+            <p>TEL 0000-00-0000</p>
+            <p>受付時間 8:30 - 17:00</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>            <a href="#message">院長挨拶</a>
             <a href="#departments">診療科</a>
             <a href="#news">お知らせ</a>
             <a href="#hours">外来案内</a>
