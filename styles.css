@@ -96,11 +96,17 @@ img {
 }
 
 .header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 16px;
   padding: 16px 0 12px;
 }
 
 .header-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   gap: 24px;
   flex-wrap: wrap;
   padding: 12px 0 16px;
