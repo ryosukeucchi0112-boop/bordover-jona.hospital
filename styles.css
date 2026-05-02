@@ -76,6 +76,10 @@ img {
    Header
 ========================================================= */
 
+/* =========================================================
+   Header
+========================================================= */
+
 .site-header {
   position: relative;
   z-index: 20;
@@ -84,11 +88,11 @@ img {
   backdrop-filter: blur(10px);
 }
 
-.header-top,
-.header-bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+/* header内のフォント統一 */
+.site-header,
+.site-header * {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN",
+    "Yu Gothic", "Noto Sans JP", sans-serif;
 }
 
 .header-top {
